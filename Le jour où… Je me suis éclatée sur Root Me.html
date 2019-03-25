@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>No-Lifestyle | C Language</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+<!-- EN HAUT ET EN BAS : Fixe -->
+
+	<header id="navigation">
+		<img class="logo" src="img/logo blog.png" />
+		<nav>
+			<a href="Home.html">Home</a>
+			<a href="rubrique_Random.html">Random</a>
+			<a href="rubrique_Gaming.html">Gaming</a>
+			<a href="rubrique_Coding.html">Coding</a>
+			<a href="rubrique_Otaku.html">Otaku</a>
+		</nav>
+	</header>
+
+<!-- Image + Sidebar HAUT DU SITE -->
+
+	<div class="sidebar">
+		<div class="sidebar-btn">
+			<i class="fas fa-times hidden" id="close-sidebar"></i>
+			<i class="fas fa-hamburger" id="open-sidebar"></i>
+		</div>
+		<a href="Home.html">Home</a>
+		<a href="">About Me</a>
+		<a href="rubrique_Random.html">Random</a>
+		<a href="rubrique_Gaming.html">Gaming</a>
+		<a href="rubrique_Coding.html">Coding</a>
+		<a href="rubrique_Otaku.html">Otaku</a>
+		<a href="">Contact</a>
+	</div>
+
+	<div class = "imgcoding">
+		<img src="img/soul-calibur-ii.jpg">
+	</div>
+
+
+	<div class="title">	<h1>Le jour où… Je me suis éclatée sur Root Me</h1></div>
+		<div class="article-content">
+			<p>
+			Parce que j’adore griller les étapes (vous l’aurez compris je pense), j’ai voulu devenir une hackeuse de fou avant d’apprendre à coder (fuck la logique).   </p>
+			<p>
+			Mon colloc’, qui est aussi mon prof particulier de C, qui est aussi mon meilleur pote, m’a filé le lien de Root Me, une sorte de plateforme qui te permet d’augmenter ton insight de la sécurité informatique, et de tous les risques qui lui sont liée. Il faut savoir que via les Internets, tu peux genre récupérer toutes les données d’un site de rencontre, accéder au compte en banque d’un mec en récupérant les codes d’accès de sa banque (vous pouvez toujours essayer de récupérer les miens, vous trouverez que des chiffres en rouge, et des messages à répétition de mon banquier me demandant de combler mon découvert). Bref. Voire même, et ça m’a vraiment impressionné, d’effacer littéralement la vie de quelqu’un via son existence numérique. En théorie. </p>
+			<p>
+			Je me voyais déjà comme John Draper, entrain de pirater tout internet armée d’un sifflet trouvé dans une boîte de céréales Cap’n Crunch. </p>
+			<p>
+			Posée sur mon canap, mon pc sur les genoux, j’ai commencé à bidouiller sur le site comme une gamine devant son premier rubik’s cube, qui tourne le truc dans tous les sens sans essayer de comprendre comment ça marche. J’ai donc ouvert les exos les plus faciles, avant de pleurer ma mère tellement je comprenais rien, et demander de l’aide aux deux monstres du code à côté de moi. C’est la première fois que j’utilisais Inspect Element (aujourd’hui je sais virer une fenêtre qui t’oblige à t’inscrire sur un site pour continuer à faire défiler le texte. J’en suis d’ailleurs particulièrement fière, et j’attends avec impatience de pouvoir montrer ça à quelqu’un que ça impressionnerait, et de prendre ma tête complètement blasée comme si c’était le truc le plus chiant que j’avais dû faire de la journée).  </p>
+			<p>
+			J’ai connu mes premiers émois en Javascript, j’ai hacké le système du http (hein ?), j’ai fouillé du HTML, et j’ai cracké des mots de passe de fou (genre « admin », TMTC). Bref, je m’amuse bien, et encore mieux, ça m’a donné super envie de continuer l’aventure de l’apprentissage du code, parce que les exos sont super bien ficelés, plein d’humour, tu vois plein de choses différentes. En plus d’augmenter tes skills, ça te donne une culture G excellente sur les différents protocoles utilisés, les outils que tu trouvais à une époque pas si lointaine et toutes les failles qui leur sont associés, et les nouvelles techniques qui te permettent de te protéger plus efficacement. En plus de t’ouvrir les yeux sur l’importance de la cybersécurité.  </p>
+			<p>
+			En passant, maintenant je mets souvent en fond une carte des cyber-attaques en temps réel, et j’ai l’impression de faire partie du FBI. Plus sérieusement, ce monde me fascine. Plus je tends la main vers lui, plus je prends conscience de la distance qui m’en sépare. Et ce fossé se creuse de plus en plus, alors que je me rends compte de la complexité qui lui est associé. </p>
+			
+			<p class="morale">
+			Morale : Tu peux jouer à piquer les codes d’accès de tes parents. Mais tu n’as pas forcément envie de tomber sur leur compte NousLibertins.com.  </p>
+	</div>
+
+	<div class="now">
+		<div class="games">
+			<h2>Now playing at:</h2>
+			<p> The Witcher III</p>
+		</div>
+		<div class="music">
+			<h2>Now listening:</h2>
+			<p>The Carpenters</p>
+		</div>
+		<div class="food">
+			<h2>Now eating:</h2>
+			<p>Fucking pizza</p>
+		</div>
+	</div>
+
+
+	<footer>
+		<p>
+			Oh yeah that's my site © No-lifestyle 2019 | All rights reserved.
+		</p> 
+	</footer>
+
+		<script type="text/javascript">
+		var openBtn = document.getElementById("open-sidebar");
+		var closeBtn = document.getElementById("close-sidebar");
+		var sidebar = document.getElementsByClassName("sidebar")[0];
+
+		function toggleSidebar() {
+			openBtn.classList.toggle("hidden");
+			closeBtn.classList.toggle("hidden");
+			if (sidebar.classList.contains("sidebar-open")) {
+				sidebar.classList.remove("sidebar-open");
+				sidebar.classList.add("sidebar-closed");
+			} else {
+				sidebar.classList.add("sidebar-open");
+				sidebar.classList.remove("sidebar-closed");
+			}
+		}
+
+		function adjustHeaderHeight() {
+			let height = document.getElementById("navigation").getBoundingClientRect().height;
+			document.getElementById("topspacer").style.height = `${height}px`;
+		}
+		
+		closeBtn.addEventListener("click", function () {
+			toggleSidebar();
+		});
+		openBtn.addEventListener("click", function () {
+			toggleSidebar();
+		});
+
+		window.onload = function() {
+			adjustHeaderHeight();
+		}
+		window.onresize = function() {
+			adjustHeaderHeight();
+		}
+	</script>
+
+
+</body>
+</html>
