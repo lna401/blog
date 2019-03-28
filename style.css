@@ -301,3 +301,13 @@ a.article-tittle
 {
    text-decoration: none;
 }
+
+a.rubriquelink
+{
+	text-decoration: none !important;
+	margin-bottom: 10px;
+	font-family: logo;
+	margin-right: 150px;
+	display: flex;
+	justify-content: flex-start;
+}
