@@ -311,4 +311,5 @@ a.rubriquelink
 	display: flex;
 	justify-content: flex-start;
 	color: rgb(99, 99, 99);
+	font-size: 25px;
 }
