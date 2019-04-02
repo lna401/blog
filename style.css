@@ -319,3 +319,12 @@ a.rubriquelink
 {
 	margin-top: 350px;
 }
+
+.links
+{
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: justify !important;
+	font-family: "Oxygen";
+}
+}
