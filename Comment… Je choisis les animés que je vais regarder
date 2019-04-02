@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>No-Lifestyle | SC II</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+<!-- EN HAUT ET EN BAS : Fixe -->
+
+	<header id="navigation">
+		<img class="logo" src="img/logo blog.png" />
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="rubrique_Random.html">Random</a>
+			<a href="rubrique_Gaming.html">Gaming</a>
+			<a href="rubrique_Coding.html">Coding</a>
+			<a href="rubrique_Otaku.html">Otaku</a>
+		</nav>
+	</header>
+
+<!-- Image + Sidebar HAUT DU SITE -->
+
+	<div class="sidebar">
+		<div class="sidebar-btn">
+			<i class="fas fa-times hidden" id="close-sidebar"></i>
+			<i class="fas fa-hamburger" id="open-sidebar"></i>
+		</div>
+		<a href="index.html">Home</a>
+		<a href="">About Me</a>
+		<a href="rubrique_Random.html">Random</a>
+		<a href="rubrique_Gaming.html">Gaming</a>
+		<a href="rubrique_Coding.html">Coding</a>
+		<a href="rubrique_Otaku.html">Otaku</a>
+		<a href="">Contact</a>
+	</div>
+
+
+	<div class="title">	<h1>Comment... Je choisis les animés que je vais regarder</h1></div>
+		<div class="article-content">
+			<p>
+			S’il y a un moment que je déteste, c’est bien le moment où il faut que je choisisse quel animé je vais regarder. Notamment quand tu sors d’un animé qui t’a fait t’envoler, et que tu n’oublieras jamais. Donc là le nouvel animé part avec un malus certain, tu arrives avec des aprioris gros comme des immeubles, et comme quand tu vas renouveler ta paire de chaussures tu sais qu’il va falloir changer de modèle, tu essayes quand même de retrouver la paire que tu avais déjà dans les magasins.   </p>
+			<p>
+			Donc bon, la première chose que je fais d’abord c’est regarder ce qu’il y a de dispo sur les plateformes de streaming. Généralement il y a des trucs bien, le seul problème c’est que la plupart je les ai vus, et que le reste est sacrément mal noté. Ensuite quand j’en ai sélectionné deux ou trois, je consulte quelques reviews. La plupart du temps je fais une petite recherche Google, tout ça. </p>
+			<p>
+			Bon, parfois je cherche quand même un peu mieux. Je me suis créé un compte sur MAL il y a quelques années, sur recommandation. Déjà parce que je peux rendre public si j’ai aimé ou pas aimé un animé, et comme je suis super vaniteuse (comme les gens qui postent leurs avis en général) et que ça peut toujours rendre service, je tiens mon compte à jour. Ensuite parce que bon, toujours cette espèce de gamification, où tes heures de visionnages sont comptabilisées, et où on t’indique l’équivalent en nombre de jours de toutes tes heures cumulées. Donc ouais, tu vois la barre s’allonger, et c’est cool, et tu te dis « oh non j’en suis qu’à 23 jours de visionnage ! Pas assez pour être estimée par la communauté Otaku ! ».  </p>
+			<p>
+			Bref, je suis assez sensible à ces conneries, et même si je m’en rends bien compte, je sais que ça influe quand même sur mon comportement. </p>
+			<p>
+			Le problème c’est que je suis aussi constamment tiraillée entre l’idée de revoir un animé, ou d’en découvrir un autre.  </p>
+			<p>
+			Revoir un animé, il y a des plus et il y a des moins. </p>
+			<p>
+			Les + : tu sais qu’il est bien, tout simplement. Tu as aimé ce que tu as vu, ce que tu as entendu, ce que tu as ressenti. Il te transporte aussi dans une période de ta vie. Il te fait voyager dans son monde, mais également dans le temps et dans l’espace.  </p>
+			<p>
+			Les -  : C’est pas pareil. Le revoir, c’est pas pareil que la première fois où tu l’as vu. Et il y a ce dilemme, est-ce qu’il me plaira autant, ou est-ce que je vais être déçue et que ça endommagera le souvenir que j’en ai ? Est-ce que je vais pas craquer et skipper les épisodes un peu creux, ceux que j’ai moins aimé, pour arriver directement dans le feu de l’action ?   </p>
+			<p>
+			De 1, j’ai pas du tout envie d’abîmer le souvenir que j’en ai. Vraiment pas. De 2, parfois ça te fait voyager un peu trop vite, un peu trop loin. Et il y a certains animés que je n’ai pas le courage de regarder de nouveau. Ça peut être pour n’importe quelle raison. Mais bon en général la cause c’est la rupture amoureuse. J’ai toujours maté des animés avec mes ex, et autant seule tu ressens des milliards de choses, autant les partager avec quelqu’un à côté de soi ça change un peu. De la même façon, il y en a que je ne peux pas finir. Qu’on avait mis sur pause, et que je n’arrive plus à relancer, parce que justement il n’y a plus de « on ». </p>
+			<p>
+			Généralement ça me fait chier (comme beaucoup de trucs, je suis quand même assez blasée) et j’ai envie de me donner des baffes parce que c’est quand même ridicule, que je perds pas mal de chose à arrêter certains animés. Que le passé est passé, blablabla. On sait tous que c’est pas aussi simple. 
+			</p>
+			<p>
+			Bref. Tout ça pour dire qu’en ce moment je me suis remise, pour des raisons personnelles, à avaler de l’animation japonaise en masse. Et que je sais plus trop quoi mater en ce moment. Donc si vous avez des recommandations, des trucs qu’il y a pas sur mon profit MAL, envoyez-moi un message. Ce serait cool. 
+			</p>
+			<p class="morale">
+			Morale du jour : J’ai pas de grosse épée dans le dos, ni de pouvoir télékinetique, mais parfois s’imaginer des aventures hyper badass alors qu’on rentre à pieds, qu’il pleut à verse et qu’on est en plein hiver, ça permet de passer le temps plus vite.  </p>
+	</div>
+
+	<div class="now">
+		<div class="games">
+			<h2>Now playing at:</h2>
+			<p> The Witcher III</p>
+		</div>
+		<div class="music">
+			<h2>Now listening:</h2>
+			<p>The Carpenters</p>
+		</div>
+		<div class="food">
+			<h2>Now eating:</h2>
+			<p>Fucking pizza</p>
+		</div>
+	</div>
+
+
+	<footer>
+		<p>
+			Oh yeah that's my site © No-lifestyle 2019 | All rights reserved.
+		</p> 
+	</footer>
+
+		<script type="text/javascript">
+		var openBtn = document.getElementById("open-sidebar");
+		var closeBtn = document.getElementById("close-sidebar");
+		var sidebar = document.getElementsByClassName("sidebar")[0];
+
+		function toggleSidebar() {
+			openBtn.classList.toggle("hidden");
+			closeBtn.classList.toggle("hidden");
+			if (sidebar.classList.contains("sidebar-open")) {
+				sidebar.classList.remove("sidebar-open");
+				sidebar.classList.add("sidebar-closed");
+			} else {
+				sidebar.classList.add("sidebar-open");
+				sidebar.classList.remove("sidebar-closed");
+			}
+		}
+
+		function adjustHeaderHeight() {
+			let height = document.getElementById("navigation").getBoundingClientRect().height;
+			document.getElementById("topspacer").style.height = `${height}px`;
+		}
+		
+		closeBtn.addEventListener("click", function () {
+			toggleSidebar();
+		});
+		openBtn.addEventListener("click", function () {
+			toggleSidebar();
+		});
+
+		window.onload = function() {
+			adjustHeaderHeight();
+		}
+		window.onresize = function() {
+			adjustHeaderHeight();
+		}
+	</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137382473-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-137382473-1');
+</script>
+
+
+</body>
+</html>
