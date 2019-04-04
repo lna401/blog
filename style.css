@@ -180,20 +180,14 @@ nav
 	display: inline-block;
 }
 
-.content-left h2
-{
-	font-family: logo;
-	font-size: 2em;
-	color:rgb(54,43,54);
-	margin-left: 20px;
-	font-weight: inherit;
-}
 
-.content-left p
+.content-left h2
 {
 	text-align: center;
 	font-family: "Oxygen";
 	font-size: 1.1em;
+	color: rgb(255,54,0);
+	font-weight: inherit;
 }
 
 .red 
@@ -308,7 +302,6 @@ a.rubriquelink
 	text-decoration: none !important;
 	margin-bottom: 10px;
 	font-family: logo;
-	margin-right: 150px;
 	display: flex;
 	justify-content: flex-start;
 	color: rgb(99, 99, 99);
@@ -327,4 +320,8 @@ a.rubriquelink
 	text-align: justify !important;
 	font-family: "Oxygen";
 }
+
+.strong 
+{
+	font-weight: lighter;
 }
