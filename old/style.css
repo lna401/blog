@@ -1,0 +1,303 @@
+@font-face 
+{
+  font-family: "logo";
+  src: url("font/gomarice_usuazi_hosomozi.ttf");
+}
+@font-face 
+{
+  font-family: "content";
+  src: url("font/HelveticaThin.woff");
+}
+
+@font-face
+{
+	font-family: 'Oxygen', sans-serif;
+}
+
+html, body
+{
+	margin: 0;
+}
+
+/*
+	*******HEADER*******
+ */
+ /*Style*/
+header
+{
+	background: rgba(255,255,255,0.9);
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+}
+
+footer
+{
+	font-family: "Oxygen";
+	font-size: 0.75em;
+	color: white;
+	background-color: rgb(99, 99, 99);
+	padding-bottom: 0.1px;
+	padding-top: 0.1px;
+	text-align: left;
+	padding-left: 150px;
+}
+
+/*style links*/
+nav>a
+{
+	font-family: logo;
+	font-size: 1.5em;
+	color: rgb(161, 161, 161);
+	text-decoration: none;
+	padding-right: 35px;
+	padding-left:35px;
+}
+/*style navigation*/
+nav
+{
+	text-align: center;
+}
+/*logo*/
+.logo
+{
+	width: 40%;
+	margin: 0 auto;
+	display: block;
+	margin-top: 50px;
+	margin-bottom: 50px; 
+}
+
+/*landscape*/
+.landscape
+{
+	background-image: url(img/landscape.gif);
+	height: 494px;
+	background-size: cover;
+	background-position: center bottom;
+}
+
+/*
+	*******CONTENT*******
+ */
+.title
+{	
+	font-family: logo;
+	margin-top: 50px;
+	margin-left: 150px;
+}
+
+.content
+
+{
+	margin-left: 150px;
+	margin-right: 200px;
+}
+
+.author>img
+{
+	width: 200px;
+}
+
+/*
+	*******SIDEBAR*******
+ */
+ /*Style*/
+.sidebar
+{
+	font-family: "Oxygen";
+	background-color: rgb(161, 161, 161);
+	z-index: 5;
+	position: fixed;
+	top: 0;
+	right: -250px;
+	bottom: 0;
+	padding-left: 50px;
+	padding-right: 85px;
+	padding-top: 120px;
+}
+/*Style closed*/
+.sidebar-closed {
+	right: 0px;
+    animation: slideout 0.5s forwards;	
+}
+/*style opened*/
+.sidebar-open {
+	animation: slidein 0.5s forwards;
+	display: block;
+	right: -250px;
+}
+/*animations*/
+@keyframes slideout {
+    100% { right: -250px; }
+}
+
+@keyframes slidein {
+    100% { right: 0px; }
+}
+/*style links*/
+.sidebar>a
+{
+	text-decoration: none;
+	font-size: 1em;
+	padding-bottom: 20px;
+	display: block;
+	color: white;
+}
+/*buttons*/
+.sidebar-btn
+{
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	color: rgb(255,54,0);
+	z-index: 6;
+	font-size :25px;
+}
+
+.hidden
+{
+	display: none !important;
+}
+
+/*
+	******ARTICLES*******
+ */
+.articles
+{
+  margin-left: 100px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.content-left
+{
+	width: 85%;
+	display: inline-block;
+}
+
+.content-left h2
+{
+	font-family: logo;
+	font-size: 2em;
+	color:rgb(54,43,54);
+	margin-left: 20px;
+	font-weight: inherit;
+}
+
+.content-left p
+{
+	text-align: center;
+	font-family: "Oxygen";
+	font-size: 1.1em;
+}
+
+.red 
+{
+	color: rgb(255,54,0);
+}
+
+.articles img
+{
+	width: 400px;
+	height: 280px;
+	display: inline-block;
+}
+
+.articles>div
+{
+	padding-bottom: 25px;
+	/*background-color: rgb(237, 230, 203);*/
+	margin-left: 55px;
+	margin-bottom: 30px;
+}
+
+.now
+{
+	justify-content: flex-end;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.now h2
+{
+	font-family: logo;
+	font-size: 1.5em;
+	color:rgb(255,54,0);
+}
+
+.now p
+{
+	font-family: "Oxygen";
+	font-size: 1em;
+}
+
+.article-tittle
+{
+	font-family: logo;
+	font-size: 1.5em;
+	color:rgb(255,54,0);
+	font-weight: lighter;
+}
+
+.article
+{
+	font-family: "Oxygen";
+	font-size: 1.1em;
+	color:rgb(99, 99, 99);
+	text-align: justify;
+	margin-right: 100px;
+	text-align: justify !important;
+}
+
+.articlelist
+{
+	margin-left: 100px;
+	margin-top: 60px;
+}
+
+.rubrique
+{
+	margin-bottom: 10px;
+	font-family: logo;
+	margin-left: 150px;
+}
+
+.imgcoding
+{
+	margin-top: 300px;
+	width: 100%;
+}
+
+.imgcoding >img
+{
+	width: 100%;
+}
+
+.article-content
+{
+	width: 85%;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.article-content p
+{
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: justify !important;
+	font-family: "Oxygen";
+}
+
+.morale
+{
+	color:rgb(255,54,0);
+}
+
+a.article-tittle
+{
+   text-decoration: none;
+}

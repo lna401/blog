@@ -1,0 +1,13 @@
+---
+layout: all
+---
+
+ {% assign last_posts = site.posts | slice: 0,6 %} 
+
+{% for post in last_posts %}
+	<li><a href="{{ post.url }}">{{post.title}}</a></li>
+{% endfor %}
+
+{% for file in site.static_files %}
+	{{ file.basename }} <br>
+{% endfor%}

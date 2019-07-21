@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset="utf-8" />
+	<title> {{ categories }}|{{ page.title }} </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"> 
+</head>
+
+<body>
+
+	<header id="navigation">
+		<img class="logo" src="img/logo blog.png" alt="Logo du blog No-lifestyle" />
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="rubrique_Randoming.html">Randoming</a>
+			<a href="rubrique_Gaming.html">Gaming</a>
+			<a href="rubrique_Coding.html">Coding</a>
+			<a href="rubrique_Connecting.html">Connecting</a>
+			<a href="rubrique_Otaku.html">Otaku"ing"</a>
+		</nav>
+	</header>
+
+	<div class="sidebar">
+		<div class="sidebar-btn">
+			<i class="fas fa-times hidden" id="close-sidebar"></i>
+			<i class="fas fa-hamburger" id="open-sidebar"></i>
+		</div>
+		<a href="index.html">Home</a>
+		<a href="">About Me</a>
+		<a href="rubrique_Random.html">Randoming</a>
+		<a href="rubrique_Gaming.html">Gaming</a>
+		<a href="rubrique_Coding.html">Coding</a>
+		<a href="rubrique_Connecting">Connecting</a>
+		<a href="rubrique_Otaku.html">Otaku"ing"</a>
+		<a href="">Contact</a>
+	</div>
+
+{{ content }}
+
+	<div class="now">
+		<div class="games">
+			<h2>Now playing at:</h2>
+			<p> The Witcher III</p>
+		</div>
+		<div class="music">
+			<h2>Now listening:</h2>
+			<p>Linkin Park</p>
+		</div>
+		<div class="food">
+			<h2>Now eating:</h2>
+			<p>Fucking fruits</p>
+		</div>
+	</div>
+
+	<footer>
+		<p>
+			Oh yeah that's my site © No-lifestyle 2019 | All rights reserved.
+		</p> 
+	</footer>
+
+	<script type="text/javascript">
+		var openBtn = document.getElementById("open-sidebar");
+		var closeBtn = document.getElementById("close-sidebar");
+		var sidebar = document.getElementsByClassName("sidebar")[0];
+
+		function toggleSidebar() {
+			openBtn.classList.toggle("hidden");
+			closeBtn.classList.toggle("hidden");
+			if (sidebar.classList.contains("sidebar-open")) {
+				sidebar.classList.remove("sidebar-open");
+				sidebar.classList.add("sidebar-closed");
+			} else {
+				sidebar.classList.add("sidebar-open");
+				sidebar.classList.remove("sidebar-closed");
+			}
+		}
+
+		function adjustHeaderHeight() {
+			let height = document.getElementById("navigation").getBoundingClientRect().height;
+			document.getElementById("topspacer").style.height = `${height}px`;
+		}
+		
+		closeBtn.addEventListener("click", function () {
+			toggleSidebar();
+		});
+		openBtn.addEventListener("click", function () {
+			toggleSidebar();
+		});
+
+		window.onload = function() {
+			adjustHeaderHeight();
+		}
+		window.onresize = function() {
+			adjustHeaderHeight();
+		}
+	</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137382473-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-137382473-1');
+	</script>
+
+</body>
+
+
+</html>

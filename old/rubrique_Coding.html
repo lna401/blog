@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>No-Lifestyle | Coding</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+<!-- EN HAUT ET EN BAS : Fixe -->
+
+	<header id="navigation">
+		<img class="logo" src="img/logo blog.png" />
+		<nav>
+			<a href="Home.html">Home</a>
+			<a href="rubrique_Random.html">Random</a>
+			<a href="rubrique_Gaming.html">Gaming</a>
+			<a href="rubrique_Coding.html">Coding</a>
+			<a href="rubrique_Otaku.html">Otaku</a>
+		</nav>
+	</header>
+
+<!-- Image + Sidebar HAUT DU SITE -->
+
+	<div class="sidebar">
+		<div class="sidebar-btn">
+			<i class="fas fa-times hidden" id="close-sidebar"></i>
+			<i class="fas fa-hamburger" id="open-sidebar"></i>
+		</div>
+		<a href="Home.html">Home</a>
+		<a href="">About Me</a>
+		<a href="rubrique_Random.html">Random</a>
+		<a href="rubrique_Gaming.html">Gaming</a>
+		<a href="rubrique_Coding.html">Coding</a>
+		<a href="rubrique_Otaku.html">Otaku</a>
+		<a href="">Contact</a>
+	</div>
+
+	<div class = "imgcoding">
+		<img src="img/hackermovie1.jpg">
+	</div>
+
+	<div class="rubrique">	
+		<h1>Coding</h1>
+	</div>
+	
+<!-- Gauche : LISTE DES ARTICLES -->
+
+	<div class="content-left">
+		<div class="articlelist">
+			<a class="article-tittle" href="Le jour où... j'ai commencé le C.html">Le jour où… j’ai commencé à coder en C</a>
+			<p class="article">Par un chaud été 2018, j’ai décidé de sublimer mon profil de nerd par l’apprentissage du code (d’un langage informatique) pour devenir une vraie programmatrice. Entourée de tous mes potes dev, qui étaient super heureux de me voir rejoindre leur team et qui pensaient déjà à me déléguer les tâches insupportablement rébarbatives de leur taf, je me suis demandé : MAIS ! Quel langage apprendre ? </p>
+		</div>
+
+		<div class="articlelist">
+			<a class="article-tittle" href="Le jour où … Je n’ai pas codé mon Mastermind.html">Le jour où … Je n’ai pas codé mon Mastermind</a>
+			<p class="article">Je vous ai parlé ici du C, sur lequel je ne me suis (pas assez) acharnée, avec trop peu de patience et de temps. Mais je ne vous ai pas parlé du fiasco du Mastermind maudit, celui qui a fini par me faire vomir de frustration dans les toilettes de l’open-space. </p>
+		</div>
+
+		<div class="articlelist">
+			<a class="article-tittle" href="Le jour où… Je me suis éclatée sur Root Me.html">Le jour où… Je me suis éclatée sur Root Me</a>
+			<p class="article">Parce que j’adore griller les étapes (vous l’aurez compris je pense), j’ai voulu devenir une hackeuse de fou avant d’apprendre à coder (fuck la logique). </p>
+		</div>
+	</div>
+
+<!-- Droite : MISE A JOUR QUOTIDIENNE -->
+
+	<div class="now">
+		<div class="games">
+			<h2>Now playing at:</h2>
+			<p> The Witcher III</p>
+		</div>
+		<div class="music">
+			<h2>Now listening:</h2>
+			<p>The Carpenters</p>
+		</div>
+		<div class="food">
+			<h2>Now eating:</h2>
+			<p>Fucking pizza</p>
+		</div>
+
+
+	</div>
+
+
+	<footer>
+		<p>
+			Oh yeah that's my site © No-lifestyle 2019 | All rights reserved.
+		</p> 
+	</footer>
+
+
+<!-- NE PAS TOUCHER !!! -->
+	<script type="text/javascript">
+		var openBtn = document.getElementById("open-sidebar");
+		var closeBtn = document.getElementById("close-sidebar");
+		var sidebar = document.getElementsByClassName("sidebar")[0];
+
+		function toggleSidebar() {
+			openBtn.classList.toggle("hidden");
+			closeBtn.classList.toggle("hidden");
+			if (sidebar.classList.contains("sidebar-open")) {
+				sidebar.classList.remove("sidebar-open");
+				sidebar.classList.add("sidebar-closed");
+			} else {
+				sidebar.classList.add("sidebar-open");
+				sidebar.classList.remove("sidebar-closed");
+			}
+		}
+
+		function adjustHeaderHeight() {
+			let height = document.getElementById("navigation").getBoundingClientRect().height;
+			document.getElementById("topspacer").style.height = `${height}px`;
+		}
+		
+		closeBtn.addEventListener("click", function () {
+			toggleSidebar();
+		});
+		openBtn.addEventListener("click", function () {
+			toggleSidebar();
+		});
+
+		window.onload = function() {
+			adjustHeaderHeight();
+		}
+		window.onresize = function() {
+			adjustHeaderHeight();
+		}
+	</script>
+
+
+</body>
+</html>

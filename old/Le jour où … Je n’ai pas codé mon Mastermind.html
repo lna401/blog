@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>No-Lifestyle | C Language</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+<!-- EN HAUT ET EN BAS : Fixe -->
+
+	<header id="navigation">
+		<img class="logo" src="img/logo blog.png" />
+		<nav>
+			<a href="Home.html">Home</a>
+			<a href="rubrique_Random.html">Random</a>
+			<a href="rubrique_Gaming.html">Gaming</a>
+			<a href="rubrique_Coding.html">Coding</a>
+			<a href="rubrique_Otaku.html">Otaku</a>
+		</nav>
+	</header>
+
+<!-- Image + Sidebar HAUT DU SITE -->
+
+	<div class="sidebar">
+		<div class="sidebar-btn">
+			<i class="fas fa-times hidden" id="close-sidebar"></i>
+			<i class="fas fa-hamburger" id="open-sidebar"></i>
+		</div>
+		<a href="Home.html">Home</a>
+		<a href="">About Me</a>
+		<a href="rubrique_Random.html">Random</a>
+		<a href="rubrique_Gaming.html">Gaming</a>
+		<a href="rubrique_Coding.html">Coding</a>
+		<a href="rubrique_Otaku.html">Otaku</a>
+		<a href="">Contact</a>
+	</div>
+
+	<div class = "imgcoding">
+		<img src="img/gamefail1.png">
+	</div>
+
+
+	<div class="title">	<h1>Le jour où … Je n’ai pas codé mon Mastermind</h1></div>
+		<div class="article-content">
+			<p>
+			Je vous ai parlé ici du C, sur lequel je ne me suis (pas assez) acharnée, avec trop peu de patience et de temps. Mais je ne vous ai pas parlé du fiasco du Mastermind maudit, celui qui a fini par me faire vomir de frustration dans les toilettes de l’open-space.  </p>
+			<p>
+			Toutes les conditions étaient réunies : j’avais à ma disposition un prof particulier particulièrement indulgent, un tableau blanc super classe sur lequel je gribouillais des trucs qui me paraissaient hyper compliqués (un peu comme Will Hunting sur son miroir), l’open space vide, silencieux et climatisé d’un samedi après-midi particulièrement chaud, une bouteille de lait de chèvre (vous entendrez rapidement parler de mon amour pour le lait de chèvre), et des baby carottes (idem). </p>
+			<p>
+			Et pourtant, pourtant la logique insupportablement simple du Mastermind, jeu sur lequel je disputais des batailles épiques avec ma petite cousine quand on était gamines, m’échappais, et j’avais simplement envie de me taper la tête contre les murs. Je roulais des boulettes de papier que j’écrasais entre mes doigts en imaginant mon cerveau mou et trop lent, et plutôt que de m’apaiser, ça contribuait à alimenter mon stress alors que je dévalais à grandes foulées la pente de mon estime de moi.  </p>
+			<p>
+			4 couleurs, 3 réponses possibles sur chacune des couleurs, ça me paraissait d’une bêtise sans nom. Et pourtant, ce Mastermind a réussi à me rendre complètement dingue. Le mot est passé, et bientôt tout l’open space, et même des gens hors open space, ont été au courant de l’exercice. Je gribouillais dans le train sur ma feuille avec un critérium, petant la mine toutes les 5 secondes, fusillant du regard des inconnus particulièrement mal à l’aise, que finalement je ne voyais même pas.  </p>
+			<p>
+			L’histoire du Mastermind, qui date quand même de l’été 2018, m’est revenue en tête après être allée manger chez des connaissances cet hiver, et qui m’ont posé, de façon complètement improbable, la question ultime : alors, il est fini ce mastermind ?  </p>
+			<p>
+			Mon regard ahuri et ma moue boudeuse leur ont fait comprendre que, en plus de l’échec cuisant de ma frustrante tentative, l’histoire m’était même complètement sortie de la tête. </p>
+			
+			<p class="morale">
+			Morale : C’est une chose d’écraser sa cousine de 6 ans à un jeu de société daubé pendant les vacances de printemps. Ça en est une autre d’écraser les lois de la logique pour que mon pc sache, si oui ou non, le pion bleu est bien placé.  </p>
+	</div>
+
+	<div class="now">
+		<div class="games">
+			<h2>Now playing at:</h2>
+			<p> The Witcher III</p>
+		</div>
+		<div class="music">
+			<h2>Now listening:</h2>
+			<p>The Carpenters</p>
+		</div>
+		<div class="food">
+			<h2>Now eating:</h2>
+			<p>Fucking pizza</p>
+		</div>
+	</div>
+
+
+	<footer>
+		<p>
+			Oh yeah that's my site © No-lifestyle 2019 | All rights reserved.
+		</p> 
+	</footer>
+
+		<script type="text/javascript">
+		var openBtn = document.getElementById("open-sidebar");
+		var closeBtn = document.getElementById("close-sidebar");
+		var sidebar = document.getElementsByClassName("sidebar")[0];
+
+		function toggleSidebar() {
+			openBtn.classList.toggle("hidden");
+			closeBtn.classList.toggle("hidden");
+			if (sidebar.classList.contains("sidebar-open")) {
+				sidebar.classList.remove("sidebar-open");
+				sidebar.classList.add("sidebar-closed");
+			} else {
+				sidebar.classList.add("sidebar-open");
+				sidebar.classList.remove("sidebar-closed");
+			}
+		}
+
+		function adjustHeaderHeight() {
+			let height = document.getElementById("navigation").getBoundingClientRect().height;
+			document.getElementById("topspacer").style.height = `${height}px`;
+		}
+		
+		closeBtn.addEventListener("click", function () {
+			toggleSidebar();
+		});
+		openBtn.addEventListener("click", function () {
+			toggleSidebar();
+		});
+
+		window.onload = function() {
+			adjustHeaderHeight();
+		}
+		window.onresize = function() {
+			adjustHeaderHeight();
+		}
+	</script>
+
+
+</body>
+</html>
