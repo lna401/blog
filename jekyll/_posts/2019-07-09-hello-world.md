@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World!"
 date:   2019-07-09 11:20:27 +0200
-categories: cat2
+categories: Randoming
 author : LNA
 image: /assets/img/gintama.jpg
 ---

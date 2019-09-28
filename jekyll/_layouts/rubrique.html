@@ -12,8 +12,9 @@ layout: all
 <div class="content-left red">
 	 <div class="articles">
 
-	{% assign last_posts = site.posts | slice: 0,6 %} 
-	{% for post in last_posts %}
+	{% assign categories_posts = site.posts | where: "categories", page.categories %} 
+	{% for post in categories_posts %}
+	
 			<div class="rubrique">
 				<img src="{{post.image}}" />
 				<h2> ---- #{{post.categories}} ---- </h2> 
