@@ -329,3 +329,13 @@ a.rubriquelink
 {
 	font-weight: lighter;
 }
+
+.imagerubrique
+{
+	width: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) 
+{
+	nav {display:none;}
+}
