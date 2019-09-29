@@ -1,9 +1,6 @@
 ---
 layout: all
 --- 
-
- <div id="topspacer"></div>
- <img class="imagerubrique" src="{{page.image}}">
  
 <div class="title">
 	<h1>{{page.categories}}</h1>
@@ -11,16 +8,17 @@ layout: all
 
 <div class="content-left red">
 	 <div class="articles">
-
-	{% assign categories_posts = site.posts | where: "categories", page.categories %} 
-	{% for post in categories_posts %}
-	
-			<div class="rubrique">
-				<img src="{{post.image}}" />
-				<h2> ---- #{{post.categories}} ---- </h2> 
-				<a class="rubriquelink" href="{{ post.url }}">{{post.title}}</a>
+	 	<div class="row">
+	 		{% assign categories_posts = site.posts | where: "categories", page.categories %} 
+			{% for post in categories_posts %}
+			<div class="col-md-6 col-xs-12">
+				<div class="rubrique">
+					<img src="{{post.image}}" />
+					<h2> ---- #{{post.categories}} ---- </h2> 
+					<a class="rubriquelink" href="{{ post.url }}">{{post.title}}</a>
+				</div>
 			</div>
-	{% endfor %}
-
+			{% endfor %}
+	 	</div>
 	</div>
 </div>

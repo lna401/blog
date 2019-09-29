@@ -88,8 +88,6 @@ nav
 .title
 {	
 	font-family: logo;
-	margin-top: 50px;
-	margin-left: 150px;
 }
 
 .content
@@ -168,20 +166,6 @@ nav
 /*
 	******ARTICLES*******
  */
-.articles
-{
-  margin-left: 100px;
-  margin-right: 150px;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-}
-
-.content-left
-{
-	width: 70%;
-	display: inline-block;
-}
 
 
 .content-left h2
@@ -204,13 +188,6 @@ nav
 	max-height: 200px;
 }
 
-.articles>div
-{
-	padding-bottom: 25px;
-	/*background-color: rgb(237, 230, 203);*/
-	margin-left: 55px;
-	margin-bottom: 30px;
-}
 
 .now
 {
@@ -260,7 +237,6 @@ nav
 {
 	margin-bottom: 10px;
 	font-family: logo;
-	margin-left: 150px;
 	height: 200px;
 	width: 300px;
 }
@@ -335,7 +311,21 @@ a.rubriquelink
 	width: 100%;
 }
 
+.margincol
+{
+	margin-top: 50px;
+	margin-left: 150px;
+	margin-right: 50px;
+}
+
 @media screen and (min-width: 0px) and (max-width: 400px) 
 {
 	nav {display:none;}
+
+	.margincol
+	{
+		margin-top: 50px;
+		margin-left: 20px;
+		margin-right: 50px;
+	}
 }

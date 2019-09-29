@@ -1,9 +1,6 @@
 ---
 layout: all
 ---
-
- <div id="topspacer"></div>
- <div class="landscape"></div>
  
 <div class="title">
 	<h1>Derniers articles parus</h1>
@@ -11,19 +8,20 @@ layout: all
 
 <div class="content-left red">
 	 <div class="articles">
-
-	{% assign last_posts = site.posts | slice: 0,6 %} 
-	{% for post in last_posts %}
-			<div class="rubrique">
-				<img src="{{post.image}}" />
-				<h2> ---- #{{post.categories}} ---- </h2> 
-				<a class="rubriquelink" href="{{ post.url }}">{{post.title}}</a>
+	 	<div class="row">
+	 		{% assign categories_posts = site.posts | slice: 0,6 %} 
+			{% for post in categories_posts %}
+			<div class="col-md-6 col-xs-12">
+				<div class="rubrique">
+					<img src="{{post.image}}" />
+					<h2> ---- #{{post.categories}} ---- </h2> 
+					<a class="rubriquelink" href="{{ post.url }}">{{post.title}}</a>
+				</div>
 			</div>
-	{% endfor %}
-
+			{% endfor %}
+	 	</div>
 	</div>
 </div>
-
 <!-- 
 {% for file in site.static_files %}
 	{{ file.basename }} <br>
