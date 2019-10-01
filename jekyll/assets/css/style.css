@@ -318,7 +318,7 @@ a.rubriquelink
 	margin-right: 50px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) 
+@media screen and (min-width: 0px) and (max-width: 800px) 
 {
 	nav {display:none;}
 
@@ -327,5 +327,26 @@ a.rubriquelink
 		margin-top: 50px;
 		margin-left: 20px;
 		margin-right: 50px;
+	}
+
+	header
+	{
+		padding: 0px;
+		padding-top: 25px;
+	}
+
+	.landscape
+	{
+		height: 300px;
+	}
+
+	.now
+	{
+		display: none;
+	}
+
+	footer
+	{
+		padding-left: 50px;
 	}
 }
