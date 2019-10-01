@@ -4,11 +4,13 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title> {{ categories }}|{{ page.title }} </title>
+	<title>{{ site.title }} | {{page.categories}} {{page.title}}</title>
 	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+	<link rel="icon" href="/assets/img/favicon.ico" />
+	<link rel="icon" type="image/png" href="/assets/img/favicon.png" />
 </head>
 
 <body>
@@ -16,12 +18,12 @@
 	<header id="navigation">
 		<img class="logo" src="/assets/img/logo blog.png" alt="Logo du blog No-lifestyle" />
 		<nav>
-			<a href="index.html">Home</a>
-			<a href="randoming.html">Randoming</a>
-			<a href="gaming.html">Gaming</a>
-			<a href="coding.html">Coding</a>
-			<a href="connecting.html">Connecting</a>
-			<a href="otakuing.html">Otaku"ing"</a>
+			<a href="/">Home</a>
+			<a href="/randoming.html">Randoming</a>
+			<a href="/gaming.html">Gaming</a>
+			<a href="/coding.html">Coding</a>
+			<a href="/connecting.html">Connecting</a>
+			<a href="/otakuing.html">Otaku"ing"</a>
 		</nav>
 	</header>
 
@@ -30,13 +32,13 @@
 			<i class="fas fa-times hidden" id="close-sidebar"></i>
 			<i class="fas fa-hamburger" id="open-sidebar"></i>
 		</div>
-		<a href="index.html">Home</a>
+		<a href="/">Home</a>
 		<a href="">About Me</a>
-		<a href="randoming.html">Randoming</a>
-		<a href="gaming.html">Gaming</a>
-		<a href="coding.html">Coding</a>
-		<a href="connecting">Connecting</a>
-		<a href="otakuing.html">Otaku"ing"</a>
+		<a href="/randoming.html">Randoming</a>
+		<a href="/gaming.html">Gaming</a>
+		<a href="/coding.html">Coding</a>
+		<a href="/connecting">Connecting</a>
+		<a href="/otakuing.html">Otaku"ing"</a>
 		<a href="">Contact</a>
 	</div>
 
@@ -51,15 +53,15 @@
 
 	<div class="margincol">
 		<div class="row">
-			<div class="col-md-8 col-xs-12">
+			<div class="col-md-9 col-xs-12">
 				{{ content }}
 			</div>
 
-			<div class="col-md-4 col-xs-12">
+			<div class="col-md-3 col-xs-12">
 				<div class="now">
 					<div class="games">
 						<h2>Now playing at:</h2>
-						<p> The Witcher III</p>
+						<p>Final Fantasy VII</p>
 					</div>
 					<div class="music">
 						<h2>Now listening:</h2>
@@ -67,7 +69,7 @@
 					</div>
 					<div class="food">
 						<h2>Now eating:</h2>
-						<p>Fucking fruits</p>
+						<p>Cauliflower</p>
 					</div>
 				</div>
 			</div>

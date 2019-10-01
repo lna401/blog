@@ -282,9 +282,8 @@ nav
 
 .article-content p
 {
-	margin-left: 100px;
-	margin-right: 100px;
-	text-align: justify !important;
+	margin-left: 50px;
+	text-align: justify;
 	font-family: "Oxygen";
 }
 

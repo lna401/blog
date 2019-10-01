@@ -261,8 +261,7 @@ nav
 
 .article-content p
 {
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 50px;
 	text-align: justify !important;
 	font-family: "Oxygen";
 }
@@ -313,9 +312,15 @@ a.rubriquelink
 
 .margincol
 {
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-left: 150px;
 	margin-right: 50px;
+}
+
+.date
+{
+	color:rgb(99, 99, 99);
+	font-family: "Oxygen";
 }
 
 @media screen and (min-width: 0px) and (max-width: 800px) 
