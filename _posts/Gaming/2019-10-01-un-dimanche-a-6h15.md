@@ -4,6 +4,7 @@ title: Un dimanche à 6h15
 date: 1er octobre 2019
 categories: Gaming
 author: LNA
+image: assets/img/console_dessin.png
 ---
 Un dimanche matin à 6h15, tu as 8 ans, t’es on fire parce que tu as dormi tes 9 heures réparatrices, que t’as pas l’âge de te mettre des races les samedis soir, et que tes parents viennent vérifier toutes les demi-heures si tu dors « au cas où », donc pas moyen de gruger sur l’heure du dodo. 
 
