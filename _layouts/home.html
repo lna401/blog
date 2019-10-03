@@ -16,6 +16,7 @@ layout: all
 					<img src="{{post.home_image}}" />
 					<h2> ---- #{{post.categories}} ---- </h2> 
 					<a class="rubriquelink" href="{{ post.url }}">{{post.title}}</a>
+					<div class="date">{{post.date | date: "%a, %b %d, %y"}}</div>
 				</div>
 			</div>
 			{% endfor %}
