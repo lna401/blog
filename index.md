@@ -1,5 +1,5 @@
 ---
 layout: home
 home: true
-title: Maison
+title: Le blog des no-lifes à la maison
 ---
