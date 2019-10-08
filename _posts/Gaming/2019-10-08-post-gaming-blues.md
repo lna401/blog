@@ -28,7 +28,7 @@ Bref, le blues post-gaming est super chaud. Mais en même temps c’était un pe
 
 <p class="morale">Morale : On fait tous style d’être des bonhommes quand on est in-game mais si t’as pas sursauté dans le pavillon médical dans Bioshock la première fois que t’y as joué, c’est que t’as pas d’âme.</p> 
 
-Quelques musiques de fin de jeu qui m’ont foutu le seum : 
+Quelques musiques de fin qui m’ont foutu le seum : 
 
 <p class="morale">FFIX</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QrR0xdWgbPA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
