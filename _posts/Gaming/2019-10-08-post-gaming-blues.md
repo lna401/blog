@@ -30,13 +30,10 @@ Bref, le blues post-gaming est super chaud. Mais en même temps c’était un pe
 
 Quelques musiques de fin qui m’ont foutu le seum : 
 
-<p class="morale">FFIX</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QrR0xdWgbPA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p class="morale">I am Setsuna</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kbUM7eynaeY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p class="morale">Portal(s) (surtout la fin....)</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B9RIHOnGGsg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Et toi, c'est lesquelles ?
