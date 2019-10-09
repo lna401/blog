@@ -322,6 +322,46 @@ a.rubriquelink
 	font-family: "Oxygen";
 }
 
+.imgabout
+{
+	max-width: 100%;
+}
+
+.textabout
+{
+	font-family: "Oxygen";
+	font-size: 0.9rem;
+	color:rgb(99, 99, 99);
+	text-align: justify;
+}
+
+.textabout a
+{
+	text-decoration: none !important;
+}
+
+.textabout strong
+{
+	font-weight: normal !important;
+	color:rgb(255,54,0);
+}
+
+.habout
+{
+	font-weight: normal;
+}
+
+.habout
+{
+	font-family: "Oxygen";
+	font-size: 1.1rem;
+}
+
+.sectionabout
+{
+	margin-top: 30px;
+}
+
 @media screen and (min-width: 0px) and (max-width: 800px) 
 {
 	nav {display:none;}
