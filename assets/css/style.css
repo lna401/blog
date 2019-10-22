@@ -364,10 +364,11 @@ a.rubriquelink
 
 .previous_post
 {
-	justify-content: flex-end;
 	font-family: "Oxygen";
 	color:rgb(99, 99, 99);
 	font-size: 0.85rem;
+	text-align: right;
+	display: block;
 }
 
 @media screen and (min-width: 0px) and (max-width: 800px) 
