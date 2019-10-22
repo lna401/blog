@@ -24,7 +24,7 @@ layout: all
 	 	<div class="row">
 	 		<div class="col-md-6">
 				{% if paginator.previous_page %}
-				    <a class="newer_post" href="{{ paginator.previous_page_path }}" class="previous">
+				    <a class="newer_post" href="{{ paginator.previous_page_path }}">
 				    	<i class="fas fa-angle-left"></i> Newer posts
 				    </a>
 				{% endif %}
@@ -32,7 +32,7 @@ layout: all
 			 
 			<div class="col-md-6">
 				{% if paginator.next_page %}
-					<a  class="previous_post" href="{{ paginator.next_page_path }}" class="next">Previous posts 
+					<a  class="previous_post" href="{{ paginator.next_page_path }}">Previous posts 
 						<i class="fas fa-angle-right"></i>
 					</a>
 				{% endif %}
