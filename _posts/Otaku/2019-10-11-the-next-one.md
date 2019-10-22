@@ -4,7 +4,7 @@ title: The next one
 date: 11 octobre 2019
 categories: Otaku-ing
 author: LNA
-home_image: assets/img/nextanime.png
+home_image: /assets/img/nextanime.png
 ---
 S’il y a bien un moment que je déteste, c’est celui où il faut que je choisisse quel anime je vais regarder. Notamment lorsque je sors d’un anime qui m’a fait voyager et que je ne pourrai jamais oublier. C’est comme un immense magasin, avec trop de choix partout. Et comme à chaque fois que je renouvèle ma paire de chaussures, je sais qu’il va falloir changer, mais je recherche quand même le même modèle. Normal.
 

@@ -4,7 +4,7 @@ title: Post-gaming Blues (#PGB)
 date: 8 octobre 2019
 categories: Gaming
 author: LNA
-home_image: assets/img/PGB.png
+home_image: /assets/img/PGB.png
 ---
 On l’a tous connu. Quand l’aventure qui nous a transportés pendant des semaines, voire des mois, s’achève.
 

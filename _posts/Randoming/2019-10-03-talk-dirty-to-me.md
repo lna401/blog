@@ -4,7 +4,7 @@ title: Talk dirty to me
 date: 3 octobre 2019
 categories: Randoming
 author: LNA
-home_image: assets/img/cs.png
+home_image: /assets/img/cs.png
 ---
 Ah, la drague dans les FPS.
 

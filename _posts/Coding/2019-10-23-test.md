@@ -4,7 +4,7 @@ title: Root me baby
 date: 4 octobre 2019
 categories: Coding
 author: LNA
-home_image: assets/img/winrar-hacker.png
+home_image: /assets/img/winrar-hacker.png
 ---
 Parce que j’adore griller les étapes, j’ai voulu devenir une hackeuse de fou avant d’apprendre à coder (fuck la logique). 
 

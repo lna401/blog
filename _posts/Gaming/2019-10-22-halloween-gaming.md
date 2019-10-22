@@ -4,7 +4,7 @@ title: Halloween Gaming
 date: 22 octobre 2019
 categories: Gaming
 author: LNA
-home_image: assets/img/horrorgame.png
+home_image: /assets/img/horrorgame.png
 ---
 Nous sommes plongés dans la période des soupes et des citrouilles, des bonbons en forme d’araignées et des déguisements de puputes. Moi tout ce à quoi Halloween me fait penser, c’est déjà le café au sirop de courge de chez Starfuck (oui, j’ai accepté de brûler en enfer). Et puis surtout les jeux devant lesquels j’ai vraiment eu peur. 
 

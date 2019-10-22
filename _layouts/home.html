@@ -13,7 +13,7 @@ layout: all
 			{% for post in paginator.posts %}
 			<div class="col-md-6 col-xs-12">
 				<div class="rubrique">
-					<img src="{{post.home_image}}" />
+					<img src="{{site.url}}{{post.home_image}}" />
 					<h2> ---- #{{post.categories}} ---- </h2> 
 					<a class="rubriquelink" href="{{ post.url }}">{{post.title}}</a>
 					<div class="date">{{post.date | date: "%a, %b %d, %y"}}</div>
