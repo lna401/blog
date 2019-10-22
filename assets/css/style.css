@@ -362,6 +362,14 @@ a.rubriquelink
 	margin-top: 30px;
 }
 
+.previous_post
+{
+	justify-content: flex-end;
+	font-family: "Oxygen";
+	color:rgb(99, 99, 99);
+	font-size: 0.85rem;
+}
+
 @media screen and (min-width: 0px) and (max-width: 800px) 
 {
 	nav {display:none;}

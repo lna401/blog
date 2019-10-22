@@ -10,7 +10,7 @@ layout: all
 	 <div class="articles">
 	 	<div class="row">
 	 		{% assign categories_posts = site.posts | slice: 0,6 %} 
-			{% for post in categories_posts %}
+			{% for post in paginator.posts %}
 			<div class="col-md-6 col-xs-12">
 				<div class="rubrique">
 					<img src="{{post.home_image}}" />
@@ -21,5 +21,22 @@ layout: all
 			</div>
 			{% endfor %}
 	 	</div>
+	 	<div class="row">
+	 		<div class="col-md-6">
+				{% if paginator.previous_page %}
+				    <a href="{{ paginator.previous_page_path }}" class="previous">
+				    	<i class="fas fa-angle-left"></i> Newer posts
+				    </a>
+				{% endif %}
+			 </div>
+			 
+			<div class="col-md-6">
+				{% if paginator.next_page %}
+					<a  class="previous_post" href="{{ paginator.next_page_path }}" class="next">Previous posts 
+						<i class="fas fa-angle-right"></i>
+					</a>
+				{% endif %}
+			</div>
+		</div>
 	</div>
 </div>
