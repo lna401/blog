@@ -376,6 +376,8 @@ a.rubriquelink
 	font-family: "Oxygen";
 	color:rgb(99, 99, 99);
 	font-size: 0.85rem;
+	text-align: left;
+	display: block;
 }
 
 @media screen and (min-width: 0px) and (max-width: 800px) 
