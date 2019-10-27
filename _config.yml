@@ -16,9 +16,7 @@
 title: No-lifestyle
 email: hello@nolife.style
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+      No-lifestyle, c’est le blog lifestyle des nolifes, des geeks, des otakus, bref de nous créatures de l’ombre. Bienvenue dans un monde qui n’appartient qu’à nous.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://nolife.style" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -30,6 +28,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
 paginate: 6
 paginate_path: "/page:num/"
 
@@ -53,3 +52,4 @@ defaults:
         type: posts
       values:
         layout: "post"
+
