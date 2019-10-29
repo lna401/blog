@@ -35,7 +35,7 @@ Alors, pitié, dites-moi que c’est vrai, et que cette mise en scène vient d�
 <p class="habout"><strong>Le hacking c’est de la bombe</strong></p>
 Oui, c’est bien connu, les ordinateurs explosent quand ils se font hacker. C’est mes potes dans le hardware qui me l’ont expliqué. Non, sérieusement, pourquoi y’a-t-il des explosifs dans des PCs ? Est-ce que je suis trop néophyte pour comprendre ? Armée de ma curiosité, je suis allée voir sur différents forums pour essayer de comprendre le comment du pourquoi. Je suis tombée sur cet article concernant Die Hard 4 : pourquoi les méchants vilains black hat hackers ont-ils intégré des explosifs dans leur pc ? 
 
-<img src="/assets/img/diehardhack.png">
+<img src="/assets/img/diehard_hack.png">
 
 Je suis fatiguée.
 
