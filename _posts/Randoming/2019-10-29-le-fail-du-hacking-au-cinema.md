@@ -24,7 +24,7 @@ Parlons un peu de Blackhat, où Chris Hemsworth hack une centrale nucléaire en 
 
 <p class="habout"><strong>Qui a la plus grosse</strong></p>
 
-<img src="/assets/img/hackreddit.png">
+<img src="/assets/img/hack_reddit.png">
 
 L’auteur de <a href="https://www.reddit.com/r/gaming/comments/f2i7t/ive_written_for_tv_shows_like_csi_and_numbers/">ce post</a> a préféré rester anonyme c’est pourquoi il faut le prendre avec des pincettes. Mais quand on voit certaines scènes, on peut difficilement les prendre au sérieux tant elles sont blindées de cliché et se ressemblent toutes. 
 
