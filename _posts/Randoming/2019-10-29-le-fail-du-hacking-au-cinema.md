@@ -2,7 +2,7 @@
 layout: post
 title: Le fail du hacking au cinéma
 date: 29 octobre 2019
-categories: randoming
+categories: Randoming
 author: LNA
 home_image: /assets/img/itcrowdfire.png
 ---
