@@ -13,7 +13,7 @@ Je suis pas une grande fan des films d’horreur, j’ai vu les films d’anthol
 Ceci dit, regarder un film, c’est une chose. Jouer à un jeu d’horreur, c’en est une autre. Le niveau d’implication est démentiel, la projection que l’on fait sur le héros également, impossible de fermer les yeux ou de penser à des chats mignons sous peine de mort imminente. Au vu de ma sensibilité à l’effroi en général, j’ai plutôt regardé les autres jouer à ce genre de jeux. 
 Je sais pas exactement où mettre la frontière entre le jeu qui tord le ventre ou le jeu d’horreur en lui-même. Par exemple : Dishonored, ça compte ? Les rats, l’ambiance glauque, les pestiférés…. Non ? Pareil, Bioshock ? Les Chrosômes sont super dégueu, les protecteurs ne mettent définitivement pas à l’aise, sans parler de Steinman, Sander Cohen et compères…
 
-<img src="/assets/img/horrorgame2.jpg">
+<img src="/assets/img/horrorgame2.jpg" alt="Image de l'article Halloween Gaming du blog No-lifestyle">
 
 Si on parle de jeu horrifique, je peux parler d’Amnesia, auquel j’ai joué à sa sortie il me semble en 2010. J’arrive plus à respirer normalement quand je tiens une lanterne. Et me cacher dans les armoires me fait plus du tout rire. Le jeu est génial, les critiques ont raison, tout ça. Mais j’ai pas dormi pendant un moment, et encore aujourd’hui je fais des jumpscares toute seule dans mon lit quand certaines images me reviennent. Et bien sûr j’ai pas terminé le jeu. Faut pas déconner. Du courage ? Moi ? Jamais !
 
@@ -21,7 +21,7 @@ Il y a eu Dead Space, aussi, sorti en 2008. J’ai du y jouer vers 2010 aussi. I
 
 Forcément je suis passée par la case Resident Evil. J’étais toute petite quand Resident Evil 2 est sorti en Europe, mais mes grands frères y jouaient. Je jouais à côté d’eux à Yoshi’s Island pendant qu’ils criaient, mais rien que les gémissements des zombies me faisaient pleurer. Alors je regardais quand même, cachée derrière le canapé, et franchement on n’en menait pas large, tous les trois. J’ai skippé toute la chaine des Resident Evil jusqu’à Resident Evil 7 : Biohazard. Pour la petite anecdote, les Resident Evil se sont toujours appelés Biohazard au Japon, du coup celui-ci s’appelait Biohazard 7 : Resident Evil. Voilà voilà. Donc Biohazard, j’y ai joué avec un copain, et comme on habite pas à côté, on allumait le vidéo-proj à chaque fois qu’il venait me voir. Pour être franche, j’ai pas tellement aimé le jeu. Selon moi, des passages trainent clairement en longueur, l’histoire part un peu en couilles, bref, j’ai pas été convaincue. A part la famille Baker, les ennemis sont globalement des gros tas de boue (bon, dans le noir ils font peur, mais c’est vite répétitif). D’un autre côté, j’ai a-do-ré les membres de la famille, ils sont tous flippants dans leur genre, ont chacun leur caractère.  
 
-<img src="/assets/img/baker_biohazard.jpg">
+<img src="/assets/img/baker_biohazard.jpg" alt="Resident Evil 7, article Halloween Gaming du blog No-lifestyle">
 
 Moi je faisais la tactique, c’est-à-dire que je passais mon temps à crier « A DROIIIIITE » ou « sors le lance flaaaaaaamme » pendant que lui galérait à cutter Lucas.  Je crois que le passage le plus horrible du jeu, c’est quand Marguerite crie « je vais te trouver, petite p\*te, ingrate, après TOUT ce que j’ai fait pour toi !!! ». Du coup depuis on se le crie, de temps en temps. Ça nous fait marrer. D’un rire nerveux.
 
