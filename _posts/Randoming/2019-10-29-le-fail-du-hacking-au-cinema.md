@@ -70,4 +70,4 @@ Et oui les gars, le hacking c’est stylé, Mr Robot est sexy, Néo a inspiré l
 
 Parce que le monde de la tech est à la mode, des tas de biopics sortent sur les nouveaux héros d’aujourd’hui. Jobs, Zuckerberg, Snowden, les émissions sur la Silicon Valley… Ces documentaires fleurissent et participent à rendre l’image du nerd attachant et attirant. Encore une fois, on aime ou on n’aime pas. Mais il faut se rendre à l’évidence, aujourd’hui tout semble à croire que cette mode va perdurer. 
 
-<p class="morale">Morale : Si tu veux hacker le Pentagone, commence par travailler ton C.</p>
+<p class="morale">Morale : Si tu veux hacker le Pentagone, commence par travailler ton C. Ou tu peux <a href="https://nolife.style/coding/root-me-baby">trainer sur Root Me</a>.</p>
