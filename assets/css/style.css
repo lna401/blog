@@ -400,6 +400,11 @@ a.rubriquelink
 	margin-left: 50px;
 }
 
+.categorylink
+{
+	text-decoration: none;
+}
+
 @media screen and (min-width: 0px) and (max-width: 800px) 
 {
 	nav {display:none;}

@@ -13,8 +13,8 @@ layout: all
 			{% for post in categories_posts %}
 			<div class="col-md-6 col-xs-12">
 				<div class="rubrique">
-					<img src="{{post.home_image}}" />
-					<h2> ---- #{{post.categories}} ---- </h2> 
+					<a href="{{post.url}}"><img src="{{post.home_image}}" alt="{{post.title}}"/></a>
+					<a href="#" class="categorylink"><h2> ---- #{{post.categories}} ---- </h2></a> 
 					<a class="rubriquelink" href="{{ post.url }}">{{post.title}}</a>
 					<div class="date">{{post.date | date: "%a, %b %d, %y"}}</div>
 				</div>
