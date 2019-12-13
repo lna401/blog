@@ -63,13 +63,17 @@ nav
 	text-align: center;
 }
 /*logo*/
-.logo
+#logo
+{
+	margin-top: 50px;
+	padding-bottom: 25px;
+}
+
+#logo img 
 {
 	width: 45%;
 	margin: 0 auto;
 	display: block;
-	margin-top: 50px;
-	margin-bottom: 50px; 
 }
 
 /*landscape*/
@@ -79,7 +83,7 @@ nav
 	height: 494px;
 	background-size: cover;
 	background-position: center bottom;
-	margin-top: 21.5px;
+	margin-top: 65px;
 }
 
 /*
@@ -151,11 +155,11 @@ nav
 .sidebar-btn
 {
 	position: fixed;
-	top: 30px;
+	top: 11px;
 	right: 30px;
 	color: rgb(255,54,0);
 	z-index: 6;
-	font-size :2rem;
+	font-size :1.7rem;
 }
 
 .hidden
