@@ -436,7 +436,7 @@ a.rubriquelink
 		display: none;
 	}
 
-	.logo
+	#logo img
 	{
 		width: 70%;
 	}
@@ -450,19 +450,18 @@ a.rubriquelink
 	{
 		font-size: 85%;
 	}
-
-	.sidebar-btn
-	{
-		font-size: 1.7rem;
-	}
 }
 
 @media screen and (min-width: 0px) and (max-width: 500px)
 {
-	.logo
+	#logo
 	{
 		margin-bottom: 0;
 		margin-top: 0;
+	}
+
+	#logo img
+	{
 		width: 60%;
 	}
 
