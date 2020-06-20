@@ -189,6 +189,7 @@ nav
 .articles img
 {
 	width: 100%;
+	max-width: 300px;
 	max-height: 200px;
 }
 
@@ -241,7 +242,8 @@ nav
 {
 	margin-bottom: 40px;
 	font-family: logo;
-	width: 300px;
+	width: 100%;
+	max-width: 100%;
 }
 
 .imgcoding
@@ -311,6 +313,7 @@ a.rubriquelink
 .imagerubrique
 {
 	width: 100%;
+	margin-top: 65px;
 }
 
 .margincol
@@ -460,9 +463,36 @@ a.rubriquelink
 		margin-top: 0;
 	}
 
+	.margincol img
+	{
+		max-width: 100%;
+	}
+
+	.margincol 
+	{
+		margin-top: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	div.title
+	{
+		margin-left: 12px;
+	}
+
+	div.date
+	{
+		margin-left: 12px;
+	}
+
+	div#logo
+	{
+		margin-top: 60px;
+	}
+
 	#logo img
 	{
-		width: 60%;
+		width: 75%;
 	}
 
 	.articles img
@@ -482,4 +512,20 @@ a.rubriquelink
 	{
 		margin-top: 21.5px;
 	}
+/*
+	*******SIDEBAR*******
+ */
+	.sidebar
+	{
+		padding-left: 20px;
+		padding-right: 40px;
+		padding-top: 80px;
+	}
+
+	.sidebar-btn
+	{
+		right: 15px;
+	}
 }
+
+@media screen and (min-width: 0px) and (max-width: 500px)
