@@ -11,7 +11,7 @@ layout: all
 	 	<div class="row">
 	 		{% assign categories_posts = site.posts | slice: 0,6 %} 
 			{% for post in paginator.posts %}
-			<div class="col-md-6 col-xs-12">
+			<div class="col-md-6 col-xs-12 col-lg-4">
 				<div class="rubrique">
 					<a href="{{post.url}}"><img src="{{site.url}}{{post.home_image}}" alt="{{post.title}}"/></a>
 					<a href="/{{post.categories}}" class="categorylink"><h2> ---- #{{post.categories}} ---- </h2></a>
