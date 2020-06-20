@@ -1,25 +1,26 @@
 ---
 layout: all
 --- 
- 
-<div class="title">
-	<h1>{{page.categories}}</h1>
-</div>
+<div class="margin-listarticle">
+	<div class="title">
+		<h1>{{page.categories}}</h1>
+	</div>
 
-<div class="content-left red">
-	 <div class="articles">
-	 	<div class="row">
-	 		{% assign categories_posts = site.posts | where: "categories", page.categories %} 
-			{% for post in categories_posts %}
-			<div class="col-md-6 col-xs-12 col-lg-4">
-				<div class="rubrique">
-					<a href="{{post.url}}"><img src="{{post.home_image}}" alt="{{post.title}}"/></a>
-					<a href="#" class="categorylink"><h2> ---- #{{post.categories}} ---- </h2></a> 
-					<a class="rubriquelink" href="{{ post.url }}">{{post.title}}</a>
-					<div class="date">{{post.date | date: "%a, %b %d, %y"}}</div>
+	<div class="content-left red">
+		<div class="articles">
+			<div class="row">
+				{% assign categories_posts = site.posts | where: "categories", page.categories %} 
+				{% for post in categories_posts %}
+				<div class="col-md-6 col-xs-12 col-lg-4">
+					<div class="rubrique">
+						<a href="{{post.url}}"><img src="{{post.home_image}}" alt="{{post.title}}"/></a>
+						<a href="#" class="categorylink"><h2> ---- #{{post.categories}} ---- </h2></a> 
+						<a class="rubriquelink" href="{{ post.url }}">{{post.title}}</a>
+						<div class="date">{{post.date | date: "%a, %b %d, %y"}}</div>
+					</div>
 				</div>
+				{% endfor %}
 			</div>
-			{% endfor %}
-	 	</div>
+		</div>
 	</div>
 </div>
