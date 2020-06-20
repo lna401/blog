@@ -318,18 +318,20 @@ a.rubriquelink
 
 .margin-listarticle
 {
-	margin-top: 50px;
 	margin-left: 150px;
 	margin-right: 50px;
 }
 
 .margin-contentarticle
 {
-	margin-top: 50px;
 	margin-left: 150px;
 	margin-right: 50px;
 }
 
+.margincol
+{
+	margin-top: 70px;
+}
 .date
 {
 	color:rgb(99, 99, 99);
