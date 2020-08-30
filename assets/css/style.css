@@ -189,8 +189,6 @@ nav
 .articles img
 {
 	width: 100%;
-	max-width: 300px;
-	max-height: 200px;
 }
 
 
@@ -243,7 +241,7 @@ nav
 	margin-bottom: 40px;
 	font-family: logo;
 	width: 100%;
-	max-width: 100%;
+	max-width: 90%;
 }
 
 .imgcoding
