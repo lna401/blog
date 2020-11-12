@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Viking Metal
-date: 12 novembre 2020
+date: 2020-11-12
 categories: Randoming
 author: LNA
 home_image: /assets/img/viking_metal.png

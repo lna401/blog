@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The next one
-date: 11 octobre 2019
+date: 2019-10-11
 categories: Otaku-ing
 author: LNA
 home_image: /assets/img/nextanime.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Toi même tu C
-date: 13 novembre 2019
+date: 2019-11-13
 categories: Coding
 author: LNA
 home_image: /assets/img/helloworld.png

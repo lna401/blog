@@ -1,7 +1,7 @@
 ---
 layout: post
 title: IRC c koi lol
-date: 22 juin 2020
+date: 2020-06-22
 categories: Randoming
 author: LNA
 home_image: /assets/img/welcome_to_irc.png

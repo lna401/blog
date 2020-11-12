@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Talk dirty to me
-date: 3 octobre 2019
+date: 2019-10-03
 categories: Randoming
 author: LNA
 home_image: /assets/img/cs.png

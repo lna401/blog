@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 9 devices IoT que l’on n’aimerait pas se voir offrir à Noël
-date: 28 novembre 2019
+date: 2019-11-28
 categories: Connecting
 author: LNA
 home_image: /assets/img/knowyourplacetrash.png

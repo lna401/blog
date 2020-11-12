@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Root me baby
-date: 4 octobre 2019
+date: 2019-10-04
 categories: Coding
 author: LNA
 home_image: /assets/img/winrar-hacker.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Halloween Gaming
-date: 22 octobre 2019
+date: 2019-10-22
 categories: Gaming
 author: LNA
 home_image: /assets/img/horrorgame.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Un dimanche à 6h15
-date: 1er octobre 2019
+date: 2019-10-01
 categories: Gaming
 author: LNA
 home_image: /assets/img/console_dessin.png

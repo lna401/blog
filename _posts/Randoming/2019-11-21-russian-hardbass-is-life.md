@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Russian Hardbass is life
-date: 21 novembre 2019
+date: 2019-11-21
 categories: Randoming
 author: LNA
 home_image: /assets/img/russian_hardbass.png

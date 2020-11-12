@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Post-gaming Blues (#PGB)
-date: 8 octobre 2019
+date: 2019-10-08
 categories: Gaming
 author: LNA
 home_image: /assets/img/PGB.png

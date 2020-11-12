@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kawai Christmas
-date: 13 décembre 2019
+date: 2019-12-13
 categories: Otaku-ing
 author: LNA
 home_image: /assets/img/christmas/saikichristmas.jpg
