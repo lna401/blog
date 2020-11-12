@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Les youtubeuses beauté qui font visiter leur appartement
-date: 19 juin 2020
+date: 2020-06-19
 categories: Randoming
 author: LNA
 home_image: /assets/img/appartement_tour.png
