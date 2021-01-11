@@ -16,7 +16,7 @@ Alors oui, je sais, ce post est un peu sombre. Mais je me doute que je suis pas 
 
 Les réseaux sociaux en général me font flipper, et un jour j’ai quitté Facebook en panique, mais ça j’en parlerai peut-être une autre fois. 
 
-<p class="morale">Morale : Quand je sais vraiment plus quoi foutre je lis mon fil d’actualités sur Linkedin. Et franchement, à part me foutre le seum, je vois pas quel est l’intérêt.<p>
+<p class="morale">Morale : Quand je sais vraiment plus quoi foutre je lis mon fil d’actualités sur Linkedin. Et franchement, à part me foutre le seum, je vois pas quel est l’intérêt.</p>
 
 
 
