@@ -4,7 +4,7 @@ title: On a voulu monter un hackerspace
 date: 2021-01-26
 categories: Randoming
 author: LNA
-home_image: /assets/img/tolbo.png
+home_image: /assets/img/hackerspace.png
 ---
 Encore un de mes projets fumeux. Heureuse de m’être rapprochée de tout un écosystème de codeurs, makers, et autre nerds dégénérés, je me suis dit que j’avais envie de faire un truc vraiment cool avec tout le monde. Et genre foutre des canapés, en mode LAN version code et électronique, seulement à la place de mon salon au parquet dégueu et au canapé déchiqueté par mon chat, on aurait un local cool qui puisse accueillir plus de monde. 
 
